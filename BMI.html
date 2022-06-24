@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BMI.css">
+    <link rel="icon" type="png" href="bmi.png" size = "20x20 40x40">
+    <title>BMI Calculator</title>
+</head>
+<body>
+ 
+    <h1 class="title">JS BMI Calc App</h1>  
+    
+    <div class="container">    
+      
+  <form name="myform">
+   
+    <h3 class="titleform">Calculate Your BMI</h3>
+    
+   <br> <label for="height" class="words">Height :
+     
+   <br><br> <span><input type="number" placeholder="Height in cm" id="height" name="height"autofocus title="Height" step="any" autocomplete="off"></span></label> <br>
+  
+    <br><label for="weight"class="words">Weight : 
+      
+    <br><br>  <span><input type="number" placeholder="Weight in kg" id="weight" name="weight" title="Weight"step="any" autocomplete="off"></span></label> <br> 
+  <br>
+    <hr class="line">
+    
+  <br><label for="bmi" class="words"> BMI :
+      
+     <br> <span><input type="number" placeholder="Your BMI" id="bmi" name="bmi" title="Your BMI" autocomplete="off"></span>
+    </label><br> 
+  
+     <br><label for="status">Status : 
+      
+      <br><span><input type="text" placeholder="Status" id="status" name="status" title="Status" autocomplete="off"></span>
+    </label><br>
+  
+    <br><button id="btn" type="button" onClick="calculate()">Calculate BMI</button>  <br>
+  
+    <br><br>  <input type="reset" value="Reset" class="reset">
+  
+  </form> 
+  
+  <br>
+    
+  </div>
+  
+   <script type="text/javascript" src="BMI.js"></script>
+  </body>
+</html>

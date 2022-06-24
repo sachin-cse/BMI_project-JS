@@ -1,0 +1,38 @@
+body{
+    background-color:#383838; 
+    color:white; 
+  }
+  
+  .title{
+    text-align: center;
+  } 
+  .line{
+    border: 1px solid white;
+    width:300px; 
+  }
+  .words{
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .titleform{
+    color: white; 
+    text-align: center;
+    font-size: 1.5rem; 
+  }
+  #btn,.reset{
+    font-style: oblique;
+    font-weight: bold; 
+    font-size: 1em; 
+    width:405px;
+  }
+  .container{
+  border: 3px solid black;
+  background-color:#181818; 
+  height:530px; 
+  width:405px; 
+  border-radius: 10px;
+  text-align: left;  
+  color:white; 
+  margin-left: auto; 
+  margin-right:auto; 
+  }
